@@ -7,7 +7,6 @@
 # tserendavaa tsogtoo <tseegii011929@gmail.com>, 2020
 # Батболд <batbold.ts@gmail.com>, 2020
 # Nurbahyt Kh <nurbahyt.kh@gmail.com>, 2020
-# Munkhbaatar Gombosuren <muuguu17@gmail.com>, 2020
 # Minj P <pminj322@gmail.com>, 2020
 # Cheemee Bumtsend <cheemeesun@gmail.com>, 2020
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2020
@@ -17,6 +16,8 @@
 # Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2020
 # baaska sh <sh.baaskash@gmail.com>, 2020
 # Uuganbayar Batbaatar <uuganaaub33@gmail.com>, 2020
+# tumenjargal hadbaatar <tumenjargal7903@gmail.com>, 2021
+# Munkhbaatar g <muuguu17@gmail.com>, 2021
 # Bayarkhuu Bataa, 2021
 # 
 msgid ""
@@ -580,7 +581,7 @@ msgstr "Ажилбарын төрөл"
 #: model:ir.model.fields,field_description:mail.field_res_partner__activity_type_icon
 #: model:ir.model.fields,field_description:mail.field_res_users__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Ажилбарын төрөлийн Icon"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_type_action
@@ -4003,7 +4004,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_message__needaction
 #: model_terms:ir.ui.view,arch_db:mail.view_message_search
 msgid "Need Action"
-msgstr "Үйлдэг шаардагдсан"
+msgstr "Үйлдэл шаардлагатай"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail__need_moderation
@@ -6590,7 +6591,7 @@ msgstr "Дэлгэцийн төрөл"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Viewer"
-msgstr ""
+msgstr "Харагч"
 
 #. module: mail
 #. openerp-web
