@@ -579,7 +579,7 @@ def load_modules(db, force_demo=False, status=None, update_module=False):
             py_module = sys.modules['odoo.addons.%s' % (package.name,)]
             post_startup = package.info.get('post_startup_hook')
             if post_startup:
-                getattr(py_module, post_startup)(cr)
+                getattr(py_module, post_startup)(cr, env)
 
 def reset_modules_state(db_name):
     """
